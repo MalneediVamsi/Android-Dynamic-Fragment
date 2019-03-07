@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/firstfragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+        android:layout_above="@+id/textfirst"
+        android:text="First fragment"/>
+
+    <EditText
+        android:id="@+id/textfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:hint="Enter text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/size" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@+id/textfirst"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:text="Submit" />
+</RelativeLayout>
